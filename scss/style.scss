@@ -67,7 +67,7 @@ body {
 }
 
 .promo {
-   background: url(/Lamborghini/img/Rectangle\ 14.jpg);
+   background: url(/img/Rectangle\ 14.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -99,13 +99,14 @@ body {
    margin-bottom: 10px;
    align-self: center;
 
-span {
-   display: block;
-   font-size: 34px;
-   color: #9f6b08;
-   padding: 10px 0;
+   span {
+      display: block;
+      font-size: 34px;
+      color: #9f6b08;
+      padding: 10px 0;
+   }
 }
-}
+
 .promo-text {
    font-size: 16px;
    color: #363636;
@@ -118,39 +119,57 @@ span {
    align-self: center;
 }
 
-.info{
-margin-bottom: 100px;
+.info {
+   margin-bottom: 100px;
 }
 
-.info-part{
-padding-top: 100px;
-display: flex;
+.info-part {
+   padding-top: 100px;
+   display: flex;
+   justify-content: space-between;
 }
 
-.info-part--first{
+.info-part--first {
    display: block;
 }
-.info-part--third{
+
+.info-part--third {
    padding-top: 66px;
 }
 
-.info-title{
+.info-title {
    text-transform: uppercase;
    font-weight: 300;
    font-size: 32px;
 }
 
-.info-part-textbox{
+.info-part-textbox {
    display: flex;
    justify-content: space-between;
    gap: 0 20px;
 }
 
-.info-text{
+.info-text {
    flex-basis: 440px;
    padding-top: 30px;
 }
 
 .text--b {
    font-weight: 700;
+}
+
+.info-part-img {
+   object-fit: cover;
+}
+
+.info-content  {
+   flex-basis: 415px;
+}
+
+.info-part--second .info-text {
+   max-width: 352px;
+}
+
+.info-part--third {
+   max-width: 377px;
 }

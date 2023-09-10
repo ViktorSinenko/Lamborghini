@@ -67,7 +67,7 @@ body {
 }
 
 .promo {
-  background: url(/Lamborghini/img/Rectangle\ 14.jpg);
+  background: url(/img/Rectangle\ 14.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -125,6 +125,7 @@ body {
 .info-part {
   padding-top: 100px;
   display: flex;
+  justify-content: space-between;
 }
 
 .info-part--first {
@@ -154,4 +155,21 @@ body {
 
 .text--b {
   font-weight: 700;
+}
+
+.info-part-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.info-content {
+  flex-basis: 415px;
+}
+
+.info-part--second .info-text {
+  max-width: 352px;
+}
+
+.info-part--third {
+  max-width: 377px;
 }/*# sourceMappingURL=style.css.map */
