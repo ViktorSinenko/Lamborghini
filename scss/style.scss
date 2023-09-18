@@ -141,6 +141,7 @@ body {
    text-transform: uppercase;
    font-weight: 300;
    font-size: 32px;
+   margin-top: 17px;
 }
 
 .info-part-textbox {
@@ -162,14 +163,33 @@ body {
    object-fit: cover;
 }
 
-.info-content  {
+.info-content {
    flex-basis: 415px;
 }
 
 .info-part--second .info-text {
    max-width: 352px;
+
 }
 
 .info-part--third {
-   max-width: 377px;
+   .info-text {
+      max-width: 377px;
+   }
+}
+
+.info-table {
+   border: 1px solid #040404;
+   border-left: 0;
+   border-right: 0;
+   position: relative;
+   top: 20px;
+}
+
+tr:first-of-type td {
+   padding-top: 20px;
+}
+
+td {
+   padding-bottom: 20px;
 }
